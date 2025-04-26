@@ -545,6 +545,7 @@ p {
 
 .modal-label {
   margin-bottom: 8px;
+  position: relative;
 }
 
 .form-input {
