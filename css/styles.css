@@ -467,8 +467,8 @@ p {
 }
 .footer-form-email {
   position: absolute;
-  margin-left: 300px ;
-  margin-top: 0px;
+  margin-left: 700px;
+
   width: 453px;
   height: 80px;
 }
@@ -484,7 +484,7 @@ p {
 }
 
 .form-input-emeil {
-  gap 24px; 
+  gap: 24px;
 }
 
 .footer-form-subscibe {
@@ -505,7 +505,7 @@ p {
   color: #ffffff;
 }
 
-.button-subscribe{
+.button-subscribe {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -518,10 +518,9 @@ p {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-
 }
 
 .backdrop {
@@ -597,12 +596,12 @@ p {
 .close-modal .close-svg:focus {
   fill: #ffffff;
 } */
- .input-style:focus+.modal-svg-icon {
-  fill: #ffffff
- }
- .input-style:hover + .modal-svg-icon{
-  fill: #ffffff
- }
+.input-style:focus + .modal-svg-icon {
+  fill: #ffffff;
+}
+.input-style:hover + .modal-svg-icon {
+  fill: #ffffff;
+}
 .modal-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
