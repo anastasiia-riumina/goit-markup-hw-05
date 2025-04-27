@@ -505,6 +505,9 @@ p {
   color: #ffffff;
 }
 
+.modal-svg-icon-sub {
+  margin-left: 16px;
+}
 .button-subscribe {
   min-width: 165px;
   height: 40px;
