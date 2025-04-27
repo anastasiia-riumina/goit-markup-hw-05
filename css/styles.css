@@ -484,11 +484,11 @@ p {
 }
 
 .form-input-emeil {
-  gap: 24px;
 }
 
 .footer-form-subscibe {
   display: flex;
+  gap: 24px;
 }
 
 .footer-form-emaill {
