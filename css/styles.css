@@ -465,6 +465,65 @@ p {
 .footer-socials-link:focus {
   background-color: #31d0aa;
 }
+.footer-form-email {
+  position: absolute;
+  margin-left: 300px ;
+  margin-top: 0px;
+  width: 453px;
+  height: 80px;
+}
+
+.footer-text-subscibe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.form-input-emeil {
+  gap 24px; 
+}
+
+.footer-form-subscibe {
+  display: flex;
+}
+
+.footer-form-emaill {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.button-subscribe{
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -476,7 +535,13 @@ p {
   visibility: hidden;
   pointer-events: none;
 }
-
+/* modal clous */
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+/* modal open */
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
@@ -521,7 +586,6 @@ p {
 .close-modal:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .close-svg {
@@ -529,10 +593,16 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-modal .close-svg:hover,
+/* .close-modal .close-svg:hover,
 .close-modal .close-svg:focus {
   fill: #ffffff;
-}
+} */
+ .input-style:focus+.modal-svg-icon {
+  fill: #ffffff
+ }
+ .input-style:hover + .modal-svg-icon{
+  fill: #ffffff
+ }
 .modal-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
