@@ -521,6 +521,7 @@ p {
 .close-modal:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .close-svg {
@@ -591,7 +592,8 @@ p {
   height: 120px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+  /* color: #8e8f99; */
+  color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -655,4 +657,7 @@ p {
 
 .checkboks-link {
   color: #4d5ae5;
+}
+.modal-comemrnt {
+  margin-bottom: 16px;
 }
